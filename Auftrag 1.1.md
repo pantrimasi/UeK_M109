@@ -25,19 +25,6 @@ Die Nutzung von Ressourcen wird überwacht, gemessen und abgerechnet, sodass Tra
 
 ## Welche Cloud Deployment Modelle kennen Sie?
 
-**Software as a Service**  
-Der Nutzer verwendet fertige Anwendungen, die vom Anbieter über die Cloud bereitgestellt werden. Zugriff erfolgt meist über einen Browser oder eine App. Der Nutzer verwaltet weder Infrastruktur noch Betriebssystem oder Anwendung, sondern nur begrenzte Einstellungen innerhalb der Anwendung.
-
-**Platform as a Service**  
-Der Anbieter stellt eine Plattform bereit, auf der eigene Anwendungen entwickelt, getestet und betrieben werden können. Der Nutzer kontrolliert die Anwendungen und deren Konfiguration, aber nicht die zugrunde liegende Infrastruktur wie Server, Netzwerk oder Betriebssystem.
-
-**Infrastructure as a Service**  
-Der Nutzer erhält grundlegende IT-Ressourcen wie Rechenleistung, Speicher und Netzwerke. Er kann darauf eigene Systeme und Anwendungen installieren und betreiben, hat aber keine Kontrolle über die physische Cloud-Infrastruktur.
-
----
-
-## Was sind Cloud Service Modelle?
-
 **Private Cloud:**  
 Die Cloud wird exklusiv von einer Organisation genutzt. Sie kann intern oder extern betrieben werden.
 
@@ -49,3 +36,16 @@ Die Cloud steht der Öffentlichkeit zur Verfügung und wird von einem Anbieter b
 
 **Hybrid Cloud:**  
 Eine Kombination aus mehreren Cloud-Modellen (z. B. Private und Public Cloud), die miteinander verbunden sind und Daten austauschen können.
+
+---
+
+## Was sind Cloud Service Modelle?
+
+**Software as a Service**  
+Der Nutzer verwendet fertige Anwendungen, die vom Anbieter über die Cloud bereitgestellt werden. Zugriff erfolgt meist über einen Browser oder eine App. Der Nutzer verwaltet weder Infrastruktur noch Betriebssystem oder Anwendung, sondern nur begrenzte Einstellungen innerhalb der Anwendung.
+
+**Platform as a Service**  
+Der Anbieter stellt eine Plattform bereit, auf der eigene Anwendungen entwickelt, getestet und betrieben werden können. Der Nutzer kontrolliert die Anwendungen und deren Konfiguration, aber nicht die zugrunde liegende Infrastruktur wie Server, Netzwerk oder Betriebssystem.
+
+**Infrastructure as a Service**  
+Der Nutzer erhält grundlegende IT-Ressourcen wie Rechenleistung, Speicher und Netzwerke. Er kann darauf eigene Systeme und Anwendungen installieren und betreiben, hat aber keine Kontrolle über die physische Cloud-Infrastruktur.
