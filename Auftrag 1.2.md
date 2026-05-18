@@ -8,7 +8,7 @@ Eine Plattform für Entwicklung und Betrieb von Anwendungen. Infrastruktur wird 
 **SaaS (Software as a Service):**  
 Fertige Anwendungen, die direkt genutzt werden können, z. B. über einen Browser.
 
-**Cloud speicher:**
+**Cloud Speicher:**  
 Bereitstellung von Speicherplatz in der Cloud für Dateien, Backups oder Datenbanken.
 
 ---
