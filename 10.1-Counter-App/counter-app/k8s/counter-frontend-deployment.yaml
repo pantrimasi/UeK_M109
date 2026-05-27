@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: counter-frontend
+  labels:
+    app: counter-frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: counter-frontend
+  template:
+    metadata:
+      labels:
+        app: counter-frontend
+    spec:
+      containers:
+        - name: counter-frontend
+          image: ghcr.io/pantrimasi/counter-frontend:v1
+          ports:
+            - containerPort: 3000
+              protocol: TCP
+          env:
+            - name: NAMESPACE
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.namespace
+            - name: BACKEND_URL
+              value: "https://counter-backend-264566-maskus.apps.exoscale-ch-gva-2-0.appuio.cloud"
+            - name: npm_config_cache
+              value: ./.npm-cache
